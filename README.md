@@ -1,2 +1,2 @@
 # Projeto-web
- projeto de um site de futebol
+ projeto de um site de esportes
