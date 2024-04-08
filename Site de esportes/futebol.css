@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-color: #4FE5EF;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Salsa';
+}
+
+header h1 a {
+    color:#F5F3F3;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header h1 {
+    color: #F5F3F3;
+    font-weight: 600;
+}
+
+header img {
+    position: absolute;
+    left: 33.8%;
+}
+
+.futebol_1 h1 {
+    color: #0700DB;
+    text-shadow: 1px 1px 1px black;
+    /* horizontal, vertical, blur*/
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo Black';
+}
+
+.futebol_1 img {
+    margin-left: 400px;
+    border: 9px solid gray;
+}
+
+.futebol_1 figcaption {
+    color: black;
+    line-height: 1.8;
+    width: 700px;
+    text-align: left;
+    margin-left: 412px;
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+.futebol_2 h1 {
+    color: #0700DB;
+    /* horizontal, vertical, blur*/
+    text-shadow: 1px 1px 1px black ;
+    padding-top: 200px;
+    padding-bottom: 100px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo Black';
+}
+
+.futebol_2 img{
+    margin-left: 400px;
+    border: 9px solid gray;
+}
+
+.futebol_2 figcaption {
+    color: black;
+    line-height: 1.8;
+    width: 700px;
+    text-align: left;
+    margin-left: 412px;
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+.futebol_3 h1 {
+    color: #0700DB;
+    /* horizontal, vertical, blur*/
+    text-shadow: 1px 1px 1px black ;
+    padding-top: 200px;
+    padding-bottom: 100px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo Black';
+}
+
+.futebol_3 img{
+    margin-left: 400px;
+    border: 9px solid gray;
+}
+
+.futebol_3 figcaption {
+    color: black;
+    line-height: 1.8;
+    width: 700px;
+    text-align: left;
+    margin-left: 412px;
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+.futebol_4 h1 {
+    color: #0700DB;
+    /* horizontal, vertical, blur*/
+    text-shadow: 1px 1px 1px black ;
+    padding-top: 200px;
+    padding-bottom: 100px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo Black';
+}
+
+.futebol_4 img {
+    margin-left: 400px;
+    border: 9px solid gray;
+}
+
+.futebol_4 figcaption {
+    line-height: 1.8;
+    width: 700px;
+    text-align: left;
+    margin-left: 412px;
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+.Título_Times h1 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    color: #0700DB;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Archivo Black';
+}
+
+.Site_Dos_Times {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Site_Athletico_Paranaense img {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.BordaAthleticoParanaense {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaAthleticoParanaense:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Atletico_Goianiense img {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.BordaAtleticoGoianiense {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaAtleticoGoianiense:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Atletico_Mineiro img {
+    margin-right: 60px;
+}
+
+.BordaAtleticoMineiro {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaAtleticoMineiro:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Bahia img {
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.BordaBahia {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaBahia:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_BotaFogo img {
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.BordaBotaFogo {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaBotaFogo:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Corinthias img {
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+.BordaCorinthias {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaCorinthias:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Criciúma img {
+    margin-top: 25px;
+    margin-right: 55px;
+}
+
+.BordaCriciúma {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+  .BordaCriciúma:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Cruzeiro img {
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.BordaCruzeiro {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+  .BordaCruzeiro:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Flamengo img {
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.BordaFlamengo {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+  .BordaFlamengo:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Fluminense img {
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.BordaFluminense {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaFluminense:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Fortaleza img {
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.BordaFortaleza {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+  .BordaFortaleza:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Grêmio img {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.BordaGrêmio {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaGrêmio:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Internacional img {
+    margin-top: 65px;
+    margin-right: 40px;
+}
+
+.BordaInternacional {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaInternacional:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Juventude img {
+    margin-top: 55px;
+    margin-right: 40px;
+}
+
+.BordaJuventude {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaJuventude:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Palmeiras img {
+    margin-top: 50px;
+    margin-right: 35px;
+}
+
+.BordaPalmeiras {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaPalmeiras:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Bragantino img {
+    margin-top: 75px;
+    margin-right: 50px;
+}
+
+.BordaBragantino {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaBragantino:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_São_Paulo img {
+    margin-top: 75px;
+    margin-right: 60px;
+}
+
+.BordaSãoPaulo {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaSãoPaulo:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Santos img {
+    margin-top: 65px;
+    margin-right: 60px;
+}
+
+.BordaSantos {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaSantos:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Vasco img {
+    margin-top: 65px;
+    margin-right: 70px;
+    margin-left: 40px;
+}
+
+.BordaVasco {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaVasco:hover {
+    border-color: #4FE5EF;
+}
+
+.Site_Vitória img {
+    margin-top: 35px;
+}
+
+.BordaVitória {
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+  
+.BordaVitória:hover {
+    border-color: #4FE5EF;
+}
+
+footer {
+    background-color: #4FE5EF;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.Futebol_texto_final_1  {
+    color: #F5F3F3;
+    font-weight: 600;
+    font-family: 'Salsa';
+}
+
+.Futebol_texto_final_2  {
+    color: #F5F3F3;
+    font-weight: 600;
+    font-family: 'Salsa';
+}

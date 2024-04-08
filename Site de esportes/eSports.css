@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-color: #4FE5EF;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Salsa';
+}
+
+header h1 a {
+    color:#F5F3F3;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header h1 {
+    color: #F5F3F3;
+    font-weight: 600;
+}
+
+header img {
+    position: absolute;
+    left: 33.4%;
+}
+
+.eSports_1 h1 {
+    color: #0700DB;
+    text-shadow: 1px 1px 1px black;
+    /* horizontal, vertical, blur*/
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo Black';
+}
+
+.eSports_1 img {
+    margin-left: 400px;
+    border: 9px solid gray;
+}
+
+.eSports_1 figcaption {
+    color: black;
+    line-height: 1.8; 
+    width: 700px;
+    text-align: left;
+    margin-left: 412px;
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+.eSports_2 h1 {
+    color: #0700DB;
+    /* horizontal, vertical, blur*/
+    text-shadow: 1px 1px 1px black ;
+    padding-top: 200px;
+    padding-bottom: 100px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo Black';
+}
+
+.eSports_2 img{
+    margin-left: 400px;
+    border: 9px solid gray;
+}
+
+.eSports_2 figcaption {
+    color: black;
+    line-height: 1.8;
+    width: 700px;
+    text-align: left;
+    margin-left: 412px;
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+.eSports_3 h1 {
+    color: #0700DB;
+    /* horizontal, vertical, blur*/
+    text-shadow: 1px 1px 1px black ;
+    padding-top: 200px;
+    padding-bottom: 100px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Archivo Black';
+}
+
+.eSports_3 img{
+    margin-left: 400px;
+    border: 9px solid gray;
+}
+
+.eSports_3 figcaption {
+    color: black;
+    line-height: 1.8;
+    width: 700px;
+    text-align: left;
+    margin-left: 412px;
+    padding-top: 100px;
+    font-size: 25px;
+    font-family: 'Inter';
+}
+
+footer {
+    background-color: #4FE5EF;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.eSports_texto_final_1  {
+    color: #F5F3F3;
+    font-weight: 600;
+    font-family: 'Salsa';
+}
+
+.eSports_texto_final_2  {
+    color: #F5F3F3;
+    font-weight: 600;
+    font-family: 'Salsa';
+}

@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-color: #4FE5EF;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Salsa';
+}
+
+header h1 {
+    color:#F5F3F3;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header img {
+    position: absolute;
+    left: 28.9%;
+}
+
+header nav a {
+    color:#F5F3F3;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.divPrincipal1 {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.principal_futebol_1 img {
+    position: relative;
+    margin-right: 15px;
+    border: 6px solid gray;
+}
+
+.legenda_futebol_1 h1 {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    position: absolute;
+    top: 505px;
+    right: 814px;
+    transition: transform 0.4s;
+}
+
+.legenda_futebol_1 h1:hover {
+    color: #4FE5EF;
+    transform: scale(1.1);
+}
+
+.principal_basquete_1 img {
+    position: relative;
+    border: 6px solid gray;
+}
+
+.legenda_basquete_1 h1{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    position: absolute;
+    top: 505px;
+    right: 165px;
+    transition: transform 0.4s
+}
+
+.legenda_basquete_1 h1:hover {
+    color: #4FE5EF;
+    transform: scale(1.06);
+}
+
+.divPrincipal2 {
+    display: flex;
+}
+
+.principal_eSports_1 img {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 140px;
+    border: 6px solid gray;
+}
+
+.legenda_eSports_1 h1 {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    position: absolute;
+    top: 1020px;
+    right: 645px;
+    transition: transform 0.4s
+}
+
+.legenda_eSports_1 h1:hover {
+    color: #4FE5EF;
+    transform: scale(1.1);
+}
+
+.principal_futebol_4 img {
+    position: relative;
+    margin-top: 8px;
+    border: 6px solid gray;
+    margin-left: 15px;
+}
+
+.legenda_futebol_4 h1 {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    position: absolute;
+    top: 1020px;
+    right: 170px;
+    transition: transform 0.4s
+}
+
+.legenda_futebol_4 h1:hover {
+    color: #4FE5EF;
+    transform: scale(1.1);
+}
+
+.principal_futebol_2 {
+    display: table;
+}
+
+.principal_futebol_2 h1 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    width: 600px;
+    margin-top:150px;
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    color: blue;
+}
+
+
+.principal_futebol_2 img {
+    display: table-cell;
+    margin-top: 240px;
+    margin-left: 140px;
+    border: 6px solid gray;
+}
+
+.principal_futebol_2_texto:hover {
+    color: #4FE5EF;
+}
+
+.Subtitulo_futebol_2 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    margin-top: -140px;
+    margin-right: 80px;
+}
+
+.principal_futebol_2 p {
+    font-size: 20px;
+}
+
+.principal_futebol_3 {
+    display: table;
+}
+
+
+.principal_futebol_3 h1 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    width: 600px;
+    margin-top:150px;
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    color: blue;
+}
+
+.principal_futebol_3 img {
+    display: table-cell;
+    margin-top: 50px;
+    margin-left: 140px;
+    border: 6px solid gray;
+}
+
+.principal_futebol_3_texto:hover {
+    color: #4FE5EF;
+}
+
+.Subtitulo_futebol_3 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    margin-top: -90px;
+    margin-right: -20px;
+}
+
+.principal_futebol_3 p {
+    font-size: 20px;
+}
+
+.principal_basquete_2 {
+    display: table;
+}
+
+
+.principal_basquete_2 h1 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    width: 600px;
+    margin-top:150px;
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    color: blue;
+}
+
+.principal_basquete_2 img {
+    display: table-cell;
+    margin-top: 330px;
+    margin-left: 140px;
+    border: 6px solid gray;
+}
+
+.principal_basquete_2_texto:hover {
+    color: #4FE5EF;
+}
+
+.Subtitulo_basquete_2 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    margin-top: -90px;
+    margin-right: 60px;
+}
+
+.principal_basquete_2 p {
+    font-size: 20px;
+}
+
+.principal_basquete_3 {
+    display: table;
+}
+
+
+.principal_basquete_3 h1 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    width: 600px;
+    margin-top:150px;
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    color: blue;
+}
+
+.principal_basquete_3 img {
+    display: table-cell;
+    margin-top: 50px;
+    margin-left: 140px;
+    border: 6px solid gray;
+}
+
+.principal_basquete_3_texto:hover {
+    color: #4FE5EF;
+}
+
+.Subtitulo_basquete_3 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    margin-top: -90px;
+    margin-right: 100px;
+}
+
+.principal_basquete_3 p {
+    font-size: 20px;
+}
+
+.principal_eSports_2 {
+    display: table;
+}
+
+
+.principal_eSports_2 h1 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    width: 600px;
+    margin-top:150px;
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    color: blue;
+}
+
+.principal_eSports_2 img {
+    display: table-cell;
+    margin-top: 330px;
+    margin-left: 140px;
+    border: 6px solid gray;
+}
+
+.principal_eSports_2_texto:hover {
+    color: #4FE5EF;
+}
+
+.Subtitulo_eSports_2 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    margin-top: -90px;
+    margin-right: 160px;
+}
+
+.principal_eSports_2 p {
+    font-size: 20px;
+}
+
+.principal_eSports_3 {
+    display: table;
+}
+
+
+.principal_eSports_3 h1 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    width: 600px;
+    margin-top:150px;
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black;
+    font-family: 'Roboto Slab';
+    color: blue;
+}
+
+.principal_eSports_3 img {
+    display: table-cell;
+    margin-top: 50px;
+    margin-left: 140px;
+    border: 6px solid gray;
+}
+
+.principal_eSports_3_texto:hover {
+    color: #4FE5EF;
+}
+
+.Subtitulo_eSports_3 {
+    cursor: pointer;
+    float: right;
+    display: table-cell;
+    text-align: center;
+    margin-top: -90px;
+    margin-right: 60px;
+}
+
+.principal_eSports_3 p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #4FE5EF;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.Futebol_texto_final_1  {
+    color: #F5F3F3;
+    font-weight: 600;
+    font-family: 'Salsa';
+}
+
+.Futebol_texto_final_2  {
+    color: #F5F3F3;
+    font-weight: 600;
+    font-family: 'Salsa';
+}
